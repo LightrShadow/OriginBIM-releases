@@ -1,0 +1,1 @@
+self.onmessage=async({data:e})=>{try{const s=e.kind==="dwg"?(await import("./native-dwg.mjs")).writeNativeDwg(e.entities,e.name):(await import("./native-skp.mjs")).writeNativeSkp(e.meshes,e.name);self.postMessage({ok:!0,...s},[s.bytes.buffer])}catch(s){self.postMessage({ok:!1,error:s.message??"Native export failed."})}};

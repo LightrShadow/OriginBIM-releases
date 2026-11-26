@@ -1,0 +1,1 @@
+const o={provider:"polar",organizationId:"",sandbox:!1,benefitIds:[],offlineDays:14},a=()=>o.sandbox?"https://sandbox-api.polar.sh/v1":"https://api.polar.sh/v1";export{o as onlineLicensing,a as polarBase};

@@ -1,0 +1,602 @@
+{
+  "schemaVersion": 1,
+  "researchedOn": "2026-11-12",
+  "purpose": "Manufacturer-published dimensional reference records for furniture envelopes; no reproduced images or CAD.",
+  "units": "metres",
+  "recordCount": 12,
+  "certificationPolicy": {
+    "wording": "Manufacturer-published nominal dimensions; no manufacturer certification of OriginBIM geometry, licensed CAD, dimensional tolerance certificate, or exact surface geometry was obtained.",
+    "manufacturerPublishedDimensions": true,
+    "manufacturerCertifiedGeometry": false,
+    "exactSurfaceGeometryProvided": false,
+    "manufacturingTolerancesProvided": false,
+    "cadRedistributionPermissionInferred": false,
+    "adaptedGenericMeshesMayBeRelabelledAsTheseProducts": false
+  },
+  "axisConvention": "X=front width, Y=plan depth, Z=height. Dining-table published length maps to X; published width maps to Y. Bed published length maps to Y.",
+  "excludedCandidates": [
+    {
+      "model": "IKEA ADDE",
+      "reason": "Current inspected official Sweden/Spain product URLs redirected to general catalogue; stale search snippets were not accepted as current verified dimensional evidence."
+    }
+  ],
+  "records": [
+    {
+      "id": "ikea-klippan-49010615",
+      "manufacturer": "IKEA",
+      "model": "KLIPPAN",
+      "variant": "2-seat sofa, Vissle grey",
+      "sku": "490.106.15",
+      "category": "sofa",
+      "dimensionsM": {
+        "width": 1.8,
+        "depth": 0.88,
+        "height": 0.66
+      },
+      "dimensions": [
+        1.8,
+        0.88,
+        0.66
+      ],
+      "dimensionOrder": [
+        "width",
+        "depth",
+        "height"
+      ],
+      "units": "metres",
+      "primaryUrl": "https://www.ikea.com/in/en/p/klippan-2-seat-sofa-vissle-grey-s49010615/",
+      "sourceType": "official-product-page",
+      "sourceSection": "Measurements",
+      "publishedMeasurements": {
+        "widthCm": 180,
+        "depthCm": 88,
+        "heightCm": 66,
+        "seatDepthCm": 54,
+        "seatHeightCm": 43,
+        "freeHeightUnderFurnitureCm": 11
+      },
+      "verificationStatus": "manufacturer-published-nominal-dimensions",
+      "manufacturerCertifiedGeometry": false,
+      "certificationWording": "Manufacturer-published nominal dimensions; no manufacturer certification of OriginBIM geometry, licensed CAD, dimensional tolerance certificate, or exact surface geometry was obtained.",
+      "geometryIncluded": false,
+      "imagesIncluded": false,
+      "checkedOn": "2026-11-12",
+      "seatHeightM": 0.43,
+      "seatDepthM": 0.54,
+      "materialSummary": "Wood-composite frame, polyurethane foam, steel legs, polyester cover"
+    },
+    {
+      "id": "ikea-malm-90290509",
+      "manufacturer": "IKEA",
+      "model": "MALM",
+      "variant": "High bed frame, white, mattress size160×200cm; mattress/slats sold separately",
+      "sku": "902.905.09",
+      "category": "bed",
+      "dimensionsM": {
+        "width": 1.76,
+        "depth": 2.09,
+        "height": 1.0
+      },
+      "dimensions": [
+        1.76,
+        2.09,
+        1.0
+      ],
+      "dimensionOrder": [
+        "width",
+        "depth",
+        "height"
+      ],
+      "units": "metres",
+      "primaryUrl": "https://www.ikea.com/in/en/p/malm-bed-frame-high-white-90290509/",
+      "sourceType": "official-product-page",
+      "sourceSection": "Measurements",
+      "publishedMeasurements": {
+        "widthCm": 176,
+        "lengthCm": 209,
+        "heightCm": 100,
+        "headboardHeightCm": 100,
+        "footboardHeightCm": 38,
+        "mattressWidthCm": 160,
+        "mattressLengthCm": 200,
+        "freeHeightUnderFurnitureCm": 21
+      },
+      "verificationStatus": "manufacturer-published-nominal-dimensions",
+      "manufacturerCertifiedGeometry": false,
+      "certificationWording": "Manufacturer-published nominal dimensions; no manufacturer certification of OriginBIM geometry, licensed CAD, dimensional tolerance certificate, or exact surface geometry was obtained.",
+      "geometryIncluded": false,
+      "imagesIncluded": false,
+      "checkedOn": "2026-11-12",
+      "axisMapping": {
+        "width": "published width",
+        "depth": "published length",
+        "height": "published maximum/headboard height"
+      },
+      "mattressDimensionsM": {
+        "width": 1.6,
+        "depth": 2.0
+      },
+      "footboardHeightM": 0.38,
+      "notes": [
+        "Overall frame dimensions, not mattress dimensions. Mattress geometry and thickness are not specified by this frame record."
+      ]
+    },
+    {
+      "id": "ikea-brimnes-10407928",
+      "manufacturer": "IKEA",
+      "model": "BRIMNES",
+      "variant": "Wardrobe with3 doors, white",
+      "sku": "104.079.28",
+      "category": "wardrobe",
+      "dimensionsM": {
+        "width": 1.17,
+        "depth": 0.5,
+        "height": 1.9
+      },
+      "dimensions": [
+        1.17,
+        0.5,
+        1.9
+      ],
+      "dimensionOrder": [
+        "width",
+        "depth",
+        "height"
+      ],
+      "units": "metres",
+      "primaryUrl": "https://www.ikea.com/in/en/p/brimnes-wardrobe-with-3-doors-white-10407928/",
+      "sourceType": "official-product-page",
+      "sourceSection": "Measurements",
+      "publishedMeasurements": {
+        "widthCm": 117,
+        "depthCm": 50,
+        "heightCm": 190
+      },
+      "verificationStatus": "manufacturer-published-nominal-dimensions",
+      "manufacturerCertifiedGeometry": false,
+      "certificationWording": "Manufacturer-published nominal dimensions; no manufacturer certification of OriginBIM geometry, licensed CAD, dimensional tolerance certificate, or exact surface geometry was obtained.",
+      "geometryIncluded": false,
+      "imagesIncluded": false,
+      "checkedOn": "2026-11-12",
+      "materialSummary": "Particleboard/fibreboard panels, paper foil, mirror glass",
+      "doorCount": 3
+    },
+    {
+      "id": "ikea-micke-80354276",
+      "manufacturer": "IKEA",
+      "model": "MICKE",
+      "variant": "Desk, white,105×50cm",
+      "sku": "803.542.76",
+      "category": "desk",
+      "dimensionsM": {
+        "width": 1.05,
+        "depth": 0.5,
+        "height": 0.75
+      },
+      "dimensions": [
+        1.05,
+        0.5,
+        0.75
+      ],
+      "dimensionOrder": [
+        "width",
+        "depth",
+        "height"
+      ],
+      "units": "metres",
+      "primaryUrl": "https://www.ikea.com/in/en/p/micke-desk-white-80354276/",
+      "sourceType": "official-product-page",
+      "sourceSection": "Measurements",
+      "publishedMeasurements": {
+        "widthCm": 105,
+        "depthCm": 50,
+        "heightCm": 75
+      },
+      "verificationStatus": "manufacturer-published-nominal-dimensions",
+      "manufacturerCertifiedGeometry": false,
+      "certificationWording": "Manufacturer-published nominal dimensions; no manufacturer certification of OriginBIM geometry, licensed CAD, dimensional tolerance certificate, or exact surface geometry was obtained.",
+      "geometryIncluded": false,
+      "imagesIncluded": false,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "id": "ikea-lisabo-80365717",
+      "manufacturer": "IKEA",
+      "model": "LISABO",
+      "variant": "Dining table, ash veneer,140×78cm",
+      "sku": "803.657.17",
+      "category": "dining-table",
+      "dimensionsM": {
+        "width": 1.4,
+        "depth": 0.78,
+        "height": 0.74
+      },
+      "dimensions": [
+        1.4,
+        0.78,
+        0.74
+      ],
+      "dimensionOrder": [
+        "width",
+        "depth",
+        "height"
+      ],
+      "units": "metres",
+      "primaryUrl": "https://www.ikea.com/in/en/p/lisabo-table-ash-veneer-80365717/",
+      "sourceType": "official-product-page",
+      "sourceSection": "Measurements",
+      "publishedMeasurements": {
+        "lengthCm": 140,
+        "widthCm": 78,
+        "heightCm": 74
+      },
+      "verificationStatus": "manufacturer-published-nominal-dimensions",
+      "manufacturerCertifiedGeometry": false,
+      "certificationWording": "Manufacturer-published nominal dimensions; no manufacturer certification of OriginBIM geometry, licensed CAD, dimensional tolerance certificate, or exact surface geometry was obtained.",
+      "geometryIncluded": false,
+      "imagesIncluded": false,
+      "checkedOn": "2026-11-12",
+      "axisMapping": {
+        "width": "published length",
+        "depth": "published width",
+        "height": "published height"
+      },
+      "seatingCapacity": 4,
+      "materialSummary": "Ash/birch veneer top, wood composite core, solid birch legs",
+      "otherPublishedCompliance": [
+        "EN15372 safety/durability/stability for general non-domestic tables; this is not certification of a digital model."
+      ]
+    },
+    {
+      "id": "ikea-lisabo-90563774",
+      "manufacturer": "IKEA",
+      "model": "LISABO",
+      "variant": "Dining table, ash veneer,88×78cm",
+      "sku": "905.637.74",
+      "category": "dining-table",
+      "dimensionsM": {
+        "width": 0.88,
+        "depth": 0.78,
+        "height": 0.74
+      },
+      "dimensions": [
+        0.88,
+        0.78,
+        0.74
+      ],
+      "dimensionOrder": [
+        "width",
+        "depth",
+        "height"
+      ],
+      "units": "metres",
+      "primaryUrl": "https://www.ikea.com/in/en/p/lisabo-table-ash-veneer-90563774/",
+      "sourceType": "official-product-page",
+      "sourceSection": "Measurements",
+      "publishedMeasurements": {
+        "lengthCm": 88,
+        "widthCm": 78,
+        "heightCm": 74
+      },
+      "verificationStatus": "manufacturer-published-nominal-dimensions",
+      "manufacturerCertifiedGeometry": false,
+      "certificationWording": "Manufacturer-published nominal dimensions; no manufacturer certification of OriginBIM geometry, licensed CAD, dimensional tolerance certificate, or exact surface geometry was obtained.",
+      "geometryIncluded": false,
+      "imagesIncluded": false,
+      "checkedOn": "2026-11-12",
+      "axisMapping": {
+        "width": "published length",
+        "depth": "published width",
+        "height": "published height"
+      },
+      "seatingCapacity": 2,
+      "materialSummary": "Ash/birch veneer top, wood composite core, solid birch legs",
+      "otherPublishedCompliance": [
+        "EN15372 safety/durability/stability for general non-domestic tables; this is not certification of a digital model."
+      ]
+    },
+    {
+      "id": "ikea-billy-00522047",
+      "manufacturer": "IKEA",
+      "model": "BILLY",
+      "variant": "Bookcase, white,80×28×202cm",
+      "sku": "005.220.47",
+      "category": "storage",
+      "dimensionsM": {
+        "width": 0.8,
+        "depth": 0.28,
+        "height": 2.02
+      },
+      "dimensions": [
+        0.8,
+        0.28,
+        2.02
+      ],
+      "dimensionOrder": [
+        "width",
+        "depth",
+        "height"
+      ],
+      "units": "metres",
+      "primaryUrl": "https://www.ikea.com/in/en/p/billy-bookcase-white-00522047/",
+      "sourceType": "official-product-page",
+      "sourceSection": "Measurements",
+      "publishedMeasurements": {
+        "widthCm": 80,
+        "depthCm": 28,
+        "heightCm": 202
+      },
+      "verificationStatus": "manufacturer-published-nominal-dimensions",
+      "manufacturerCertifiedGeometry": false,
+      "certificationWording": "Manufacturer-published nominal dimensions; no manufacturer certification of OriginBIM geometry, licensed CAD, dimensional tolerance certificate, or exact surface geometry was obtained.",
+      "geometryIncluded": false,
+      "imagesIncluded": false,
+      "checkedOn": "2026-11-12",
+      "materialSummary": "Particleboard/fibreboard with paper foil and paint"
+    },
+    {
+      "id": "ikea-alex-70586899",
+      "manufacturer": "IKEA",
+      "model": "ALEX",
+      "variant": "Drawer unit, white,36×50cm title; depth45cm",
+      "sku": "705.868.99",
+      "category": "storage",
+      "dimensionsM": {
+        "width": 0.36,
+        "depth": 0.45,
+        "height": 0.5
+      },
+      "dimensions": [
+        0.36,
+        0.45,
+        0.5
+      ],
+      "dimensionOrder": [
+        "width",
+        "depth",
+        "height"
+      ],
+      "units": "metres",
+      "primaryUrl": "https://www.ikea.com/in/en/p/alex-drawer-unit-white-70586899/",
+      "sourceType": "official-product-page",
+      "sourceSection": "Measurements",
+      "publishedMeasurements": {
+        "widthCm": 36,
+        "depthCm": 45,
+        "heightCm": 50,
+        "drawerInternalDepthCm": 39
+      },
+      "verificationStatus": "manufacturer-published-nominal-dimensions",
+      "manufacturerCertifiedGeometry": false,
+      "certificationWording": "Manufacturer-published nominal dimensions; no manufacturer certification of OriginBIM geometry, licensed CAD, dimensional tolerance certificate, or exact surface geometry was obtained.",
+      "geometryIncluded": false,
+      "imagesIncluded": false,
+      "checkedOn": "2026-11-12",
+      "notes": [
+        "This is the newer50cm-high unit. Do not substitute legacy ALEX36×58×70cm dimensions. The product title reports width and height; use the Measurements section for depth."
+      ]
+    },
+    {
+      "id": "ikea-teodores-70350938",
+      "manufacturer": "IKEA",
+      "model": "TEODORES",
+      "variant": "Chair, white",
+      "sku": "703.509.38",
+      "category": "dining-chair",
+      "dimensionsM": {
+        "width": 0.46,
+        "depth": 0.54,
+        "height": 0.8
+      },
+      "dimensions": [
+        0.46,
+        0.54,
+        0.8
+      ],
+      "dimensionOrder": [
+        "width",
+        "depth",
+        "height"
+      ],
+      "units": "metres",
+      "primaryUrl": "https://www.ikea.com/in/en/p/teodores-chair-white-70350938/",
+      "sourceType": "official-product-page",
+      "sourceSection": "Measurements",
+      "publishedMeasurements": {
+        "widthCm": 46,
+        "depthCm": 54,
+        "heightCm": 80,
+        "seatWidthCm": 40,
+        "seatDepthCm": 37,
+        "seatHeightCm": 45
+      },
+      "verificationStatus": "manufacturer-published-nominal-dimensions",
+      "manufacturerCertifiedGeometry": false,
+      "certificationWording": "Manufacturer-published nominal dimensions; no manufacturer certification of OriginBIM geometry, licensed CAD, dimensional tolerance certificate, or exact surface geometry was obtained.",
+      "geometryIncluded": false,
+      "imagesIncluded": false,
+      "checkedOn": "2026-11-12",
+      "seatHeightM": 0.45,
+      "seatWidthM": 0.4,
+      "seatDepthM": 0.37,
+      "materialSummary": "Powder-coated steel frame, polypropylene seat/back"
+    },
+    {
+      "id": "ikea-lack-80352927",
+      "manufacturer": "IKEA",
+      "model": "LACK",
+      "variant": "Side table, black-brown,55×55cm",
+      "sku": "803.529.27",
+      "category": "side-table",
+      "dimensionsM": {
+        "width": 0.55,
+        "depth": 0.55,
+        "height": 0.45
+      },
+      "dimensions": [
+        0.55,
+        0.55,
+        0.45
+      ],
+      "dimensionOrder": [
+        "width",
+        "depth",
+        "height"
+      ],
+      "units": "metres",
+      "primaryUrl": "https://www.ikea.com/in/en/p/lack-side-table-black-brown-80352927/",
+      "sourceType": "official-product-page",
+      "sourceSection": "Measurements",
+      "publishedMeasurements": {
+        "lengthCm": 55,
+        "widthCm": 55,
+        "heightCm": 45
+      },
+      "verificationStatus": "manufacturer-published-nominal-dimensions",
+      "manufacturerCertifiedGeometry": false,
+      "certificationWording": "Manufacturer-published nominal dimensions; no manufacturer certification of OriginBIM geometry, licensed CAD, dimensional tolerance certificate, or exact surface geometry was obtained.",
+      "geometryIncluded": false,
+      "imagesIncluded": false,
+      "checkedOn": "2026-11-12",
+      "axisMapping": {
+        "width": "published length",
+        "depth": "published width",
+        "height": "published height"
+      },
+      "materialSummary": "Particleboard/fibreboard and honeycomb paper core"
+    },
+    {
+      "id": "ikea-poang-69240823",
+      "manufacturer": "IKEA",
+      "model": "POÄNG",
+      "variant": "Armchair, birch veneer/Knisa black",
+      "sku": "692.408.23",
+      "category": "armchair",
+      "dimensionsM": {
+        "width": 0.68,
+        "depth": 0.82,
+        "height": 1.0
+      },
+      "dimensions": [
+        0.68,
+        0.82,
+        1.0
+      ],
+      "dimensionOrder": [
+        "width",
+        "depth",
+        "height"
+      ],
+      "units": "metres",
+      "primaryUrl": "https://www.ikea.com/se/en/p/poaeng-armchair-birch-veneer-knisa-black-s69240823/",
+      "sourceType": "official-product-page",
+      "sourceSection": "Measurements",
+      "publishedMeasurements": {
+        "widthCm": 68,
+        "depthCm": 82,
+        "heightCm": 100,
+        "seatWidthCm": 56,
+        "seatDepthCm": 50,
+        "seatHeightCm": 42
+      },
+      "verificationStatus": "manufacturer-published-nominal-dimensions",
+      "manufacturerCertifiedGeometry": false,
+      "certificationWording": "Manufacturer-published nominal dimensions; no manufacturer certification of OriginBIM geometry, licensed CAD, dimensional tolerance certificate, or exact surface geometry was obtained.",
+      "geometryIncluded": false,
+      "imagesIncluded": false,
+      "checkedOn": "2026-11-12",
+      "seatHeightM": 0.42,
+      "seatWidthM": 0.56,
+      "seatDepthM": 0.5,
+      "market": "Sweden",
+      "componentSkus": [
+        "813.058.07",
+        "203.943.17"
+      ],
+      "materialSummary": "Layer-glued birch veneer frame; foam/wadding cushion with polyester cover"
+    },
+    {
+      "id": "hermanmiller-aeron-b-height-adjustable-arms",
+      "manufacturer": "Herman Miller",
+      "model": "Aeron Chair",
+      "variant": "SizeB, height-adjustable arms, adjustable work-chair configuration",
+      "sku": null,
+      "skuStatus": "Complete order SKU is not published for this dimensional variant on the inspected specs page; configuration-dependent, not invented.",
+      "category": "office-chair",
+      "dimensionsM": {
+        "width": 0.719,
+        "depth": 0.719,
+        "height": 1.045
+      },
+      "dimensions": [
+        0.719,
+        0.719,
+        1.045
+      ],
+      "dimensionOrder": [
+        "width",
+        "depth",
+        "height"
+      ],
+      "dimensionSelection": "maximum-published-placement-envelope",
+      "dimensionRangesM": {
+        "width": [
+          0.719,
+          0.719
+        ],
+        "depth": [
+          0.698,
+          0.719
+        ],
+        "height": [
+          0.933,
+          1.045
+        ],
+        "seatHeight": [
+          0.376,
+          0.579
+        ],
+        "armHeight": [
+          0.19,
+          0.292
+        ]
+      },
+      "seatDepthM": 0.432,
+      "units": "metres",
+      "primaryUrl": "https://www.hermanmiller.com/en_in/products/seating/office-chairs/aeron-chair/specs/",
+      "supportingPdfUrl": "https://www.hermanmiller.com/en_in/content/dam/hermanmiller/documents/product_literature/product_sheets/aeron_chairs_product_sheet.pdf",
+      "sourceType": "official-metric-specification-page",
+      "sourceSection": "Aeron Chair–B Size–Height Adjustable Arms",
+      "publishedMeasurements": {
+        "widthMm": 719,
+        "depthMm": [
+          698,
+          719
+        ],
+        "heightMm": [
+          933,
+          1045
+        ],
+        "seatDepthMm": 432,
+        "seatHeightMm": [
+          376,
+          579
+        ],
+        "armHeightMm": [
+          190,
+          292
+        ]
+      },
+      "verificationStatus": "manufacturer-published-adjustable-dimension-ranges",
+      "manufacturerCertifiedGeometry": false,
+      "certificationWording": "Manufacturer-published nominal dimensions; no manufacturer certification of OriginBIM geometry, licensed CAD, dimensional tolerance certificate, or exact surface geometry was obtained.",
+      "geometryIncluded": false,
+      "imagesIncluded": false,
+      "checkedOn": "2026-11-12",
+      "notes": [
+        "Use published ranges for clearance checks. The fixed dimensions field is the maximum envelope, not one claimed measured adjustment setting.",
+        "The product-sheet PDF confirms size and adjustment options, but its overall dimension graphics use inches and differ in some presentations from the metric web variants; the selected metric variant on the primary page is the authority for this record."
+      ]
+    }
+  ]
+}
